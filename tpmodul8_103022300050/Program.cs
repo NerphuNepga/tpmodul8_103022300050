@@ -3,6 +3,12 @@ using tpmodul8_103022300050;
 
 UIConfig config = new UIConfig();
 
+Console.WriteLine("(HASIL DESERIALISASI)");
+Console.WriteLine("Satuan Suhu     : " + config.covidConfig.satuan_suhu);
+Console.WriteLine("Batas Hari Demam: " + config.covidConfig.batas_hari_demam);
+Console.WriteLine("Pesan Ditolak   : " + config.covidConfig.pesan_ditolak);
+Console.WriteLine("Pesan Diterima  : " + config.covidConfig.pesan_diterima);
+
 config.UbahSatuan();
 
 try
